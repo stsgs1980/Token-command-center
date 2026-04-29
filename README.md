@@ -19,19 +19,16 @@ You define sections and items — the component renders them in a professional p
 
 ## Install
 
-### From npm (recommended)
-
-```bash
-npm install @zai/token-command-center
-```
-
-### From GitHub
-
 ```bash
 npm install github:Sts8987/Token-command-center
 ```
 
 > The `prepare` script will automatically build `dist/` after install.
+
+**После публикации на npm** команда станет проще:
+```bash
+npm install @zai/token-command-center
+```
 
 ### Peer Dependencies
 
