@@ -6,13 +6,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@zai/token-command-center?style=flat-square" alt="npm" />
-  <img src="https://img.shields.io/npm/dm/@zai/token-command-center?style=flat-square" alt="downloads" />
-  <img src="https://img.shields.io/npm/dt/@zai/token-command-center?style=flat-square" alt="total downloads" />
-  <img src="https://img.shields.io/bundlephobia/minzip/@zai/token-command-center?style=flat-square" alt="bundle size" />
+  <img src="https://img.shields.io/github/v/tag/Sts8987/Token-command-center?style=flat-square&label=version" alt="version" />
   <img src="https://img.shields.io/github/license/Sts8987/Token-command-center?style=flat-square" alt="license" />
-  <img src="https://img.shields.io/github/issues/Sts8987/Token-command-center?style=flat-square" alt="issues" />
-  <img src="https://img.shields.io/github/last-commit/Sts8987/Token-command-center?style=flat-square" alt="last commit" />
   <img src="https://img.shields.io/badge/react-18%2B-61dafb?style=flat-square" alt="react" />
   <img src="https://img.shields.io/badge/typescript-5-3178c6?style=flat-square" alt="typescript" />
   <img src="https://img.shields.io/badge/zero_CSS-✓-22c55e?style=flat-square" alt="zero css" />
