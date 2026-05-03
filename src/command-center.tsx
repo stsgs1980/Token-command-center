@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
-import { X, Terminal, Search, ChevronRight, Star, Clock } from 'lucide-react'
+import { X, Terminal, Search, ChevronRight, Star, Clock, Wrench, Globe, Palette, BookOpen, Code, Layout, Cpu, Database, FileText, PenTool, Box, GitBranch, Zap, Layers, Rocket, Brain, Eye, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { CommandCenterProps, SectionConfig, ItemConfig, AnimationVariant, CommandCenterTheme, TriggerConfig } from './types'
 
@@ -386,7 +386,7 @@ export default function CommandCenter({
   const contentTransitionKey = activeItemId
 
   /* --- Trigger config --- */
-  const TriggerIcon: LucideIcon = triggerProp?.icon ?? Terminal
+  const TriggerIcon = triggerProp?.icon || Terminal
   const triggerPosition: Record<string, React.CSSProperties> = {
     left: { bottom: '24px', left: '24px' },
     center: { bottom: '24px', left: '50%', transform: 'translateX(-50%)' },
@@ -616,7 +616,7 @@ export default function CommandCenter({
                     style={{ flex: 1, overflowY: 'auto', scrollbarWidth: 'thin', scrollbarColor: `${t.accent}20 transparent` }}
                   >
                     {filteredSections.map((section, si) => {
-                      const SectionIcon = section.icon
+                      const SectionIcon = section.icon || Box
                       const isSectionActive = section.id === activeSection.id
                       return (
                         <div key={section.id} role="group" aria-label={section.label}>
@@ -649,7 +649,7 @@ export default function CommandCenter({
 
                           {/* Section items */}
                           {section.items.map((item) => {
-                            const ItemIcon = item.icon
+                            const ItemIcon = item.icon || Box
                             const isActive = item.id === activeItemId
                             const isHovered = item.id === hoveredItemId
                             const flatIdx = filteredItemsIndexMap.get(item.id) ?? -1
