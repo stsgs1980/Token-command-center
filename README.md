@@ -6,7 +6,7 @@ Reusable Command Center panel with sidebar navigation for React / Next.js applic
 [![license](https://img.shields.io/github/license/Sts8987/Token-command-center?style=flat-square)]
 [![react](https://img.shields.io/badge/react-18%2B-61dafb?style=flat-square)]
 [![typescript](https://img.shields.io/badge/typescript-5-3178c6?style=flat-square)]
-[![zero css](https://img.shields.io/badge/zero_CSS-✓-22c55e?style=flat-square)]
+[![zero css](https://img.shields.io/badge/zero_CSS-OK-22c55e?style=flat-square)]
 
   Reusable Command Center panel with sidebar navigation for React / Next.js applications.<br/>
   <strong>Pure UI shell. Zero business logic. Zero hardcoded data. Zero CSS dependencies.</strong>
@@ -17,7 +17,7 @@ Reusable Command Center panel with sidebar navigation for React / Next.js applic
   <img src="https://img.shields.io/github/license/Sts8987/Token-command-center?style=flat-square" alt="license" />
   <img src="https://img.shields.io/badge/react-18%2B-61dafb?style=flat-square" alt="react" />
   <img src="https://img.shields.io/badge/typescript-5-3178c6?style=flat-square" alt="typescript" />
-  <img src="https://img.shields.io/badge/zero_CSS-✓-22c55e?style=flat-square" alt="zero css" />
+  <img src="https://img.shields.io/badge/zero_CSS-OK-22c55e?style=flat-square" alt="zero css" />
 
 ## Table of Contents
 
