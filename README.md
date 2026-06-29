@@ -1,6 +1,13 @@
-<h1 align="center">@zai/token-command-center</h1>
+# @zai/token-command-center
 
-<p align="center">
+Reusable Command Center panel with sidebar navigation for React / Next.js applications.  Pure UI shell. Zero business logic. Zero hardcoded data. Zero CSS dependencies.
+
+[![version](https://img.shields.io/github/v/tag/Sts8987/Token-command-center?style=flat-square&label=version)]
+[![license](https://img.shields.io/github/license/Sts8987/Token-command-center?style=flat-square)]
+[![react](https://img.shields.io/badge/react-18%2B-61dafb?style=flat-square)]
+[![typescript](https://img.shields.io/badge/typescript-5-3178c6?style=flat-square)]
+[![zero css](https://img.shields.io/badge/zero_CSS-✓-22c55e?style=flat-square)]
+
   Reusable Command Center panel with sidebar navigation for React / Next.js applications.<br/>
   <strong>Pure UI shell. Zero business logic. Zero hardcoded data. Zero CSS dependencies.</strong>
 </p>
@@ -11,23 +18,37 @@
   <img src="https://img.shields.io/badge/react-18%2B-61dafb?style=flat-square" alt="react" />
   <img src="https://img.shields.io/badge/typescript-5-3178c6?style=flat-square" alt="typescript" />
   <img src="https://img.shields.io/badge/zero_CSS-✓-22c55e?style=flat-square" alt="zero css" />
+
+## Table of Contents
+
+- [Install](#install)
+- [Quick Start](#quick-start)
+- [Getting Started](#getting-started)
+- [API Reference](#api-reference)
+- [Features](#features)
+- [Controlled Usage](#controlled-usage)
+- [Custom Trigger Button](#custom-trigger-button)
+- [Building from Source](#building-from-source)
+- [Tech Stack](#tech-stack)
+- [Zero CSS Dependencies](#zero-css-dependencies)
+- [License](#license)
+
 </p>
 
----
 
 You define sections and items — the component renders them in a professional panel with search, keyboard navigation, and theme customization.
 
 ## Install
 
 ```bash
-npm install github:Sts8987/Token-command-center
+bun install github:Sts8987/Token-command-center
 ```
 
 > The `prepare` script will automatically build `dist/` after install.
 
 **После публикации на npm** команда станет проще:
 ```bash
-npm install @zai/token-command-center
+bun install @zai/token-command-center
 ```
 
 ### Peer Dependencies
@@ -83,6 +104,26 @@ const sections: SectionConfig[] = [
 export default function App() {
   return <CommandCenter sections={sections} />
 }
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 20+ or Bun
+
+### Installation
+
+```bash
+git clone https://github.com/stsgs1980/Token-command-center.git
+cd Token-command-center
+bun install
+```
+
+### Run
+
+```bash
+bun run dev
 ```
 
 ## API Reference
@@ -229,8 +270,8 @@ const [isOpen, setIsOpen] = useState(false)
 ```bash
 git clone https://github.com/Sts8987/Token-command-center.git
 cd Token-command-center
-npm install
-npm run build
+bun install
+bun run build
 ```
 
 ## Tech Stack
@@ -247,3 +288,6 @@ This component uses **only inline styles** and injected CSS keyframes. It does N
 ## License
 
 MIT
+
+---
+Built with: Next.js + React + TypeScript + Tailwind CSS
